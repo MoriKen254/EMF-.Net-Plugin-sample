@@ -1,0 +1,33 @@
+  SimpleCalculator.CalculatorForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SimpleCalculator, Version=0.0.*, Culture=ロケールに依存しない言語 (ロケールに依存しない国): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface SimpleCalculator.IOperation: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    Operate(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface SimpleCalculator.IOperationData: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Properties:
+    System.String Symbol 'get ' : 
+  Methods:
+    get_Symbol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface SimpleCalculator.ICalculator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    Calculate(Int32, String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Symbols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class SimpleCalculator.CalculatorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
